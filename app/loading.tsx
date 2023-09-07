@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function LoadingPage() {
   return (
-    <div className="h-screen w-screen fixed inset-0 z-20 bg-white container flex flex-col items-center justify-center">
+    <div className="min-h-screen min-w-screen w-full fixed inset-0 z-50 bg-white flex flex-col items-center justify-center">
       <Image src="/assets/icon.svg" alt="ukraine" width={80} height={40} />
-      <h2 className="mb-5 text-2xl text-primary font-medium animate-pulse capitalize">
+      <h2 className="mb-5 text-xl md:text-2xl text-primary font-medium animate-pulse capitalize">
         Завантаження...
       </h2>
       <Image

@@ -28,7 +28,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const [menu, setmenu] = useState<boolean>(false);
   return (
-    <header className="sticky top-0 left-0 w-full z-10 border-b">
+    <header className="sticky top-0 left-0 w-full z-10 border-b bg-white">
       <nav className="container flex items-center justify-between py-3 md:py-5">
         <Link
           href="/"
@@ -85,7 +85,7 @@ const Navbar = () => {
         </button>
         {menu && (
           <div className="fixed inset-0 h-screen flex flex-col items-center justify-center bg-white">
-            <ul className="md:hidden flex flex-col items-center justify-center">
+            <ul className="md:hidden flex flex-col items-center justify-center space-y-3">
               {links.map((item, i) => (
                 <li key={i}>
                   <Link

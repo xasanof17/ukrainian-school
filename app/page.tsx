@@ -1,3 +1,9 @@
+import { Hero } from "@/components";
+
 export default function Home() {
-  return <section>Hello World</section>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }

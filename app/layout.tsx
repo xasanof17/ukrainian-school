@@ -5,7 +5,7 @@ import { Roboto } from "next/font/google";
 import { Phone } from "@/components";
 
 const roboto = Roboto({
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic", "cyrillic-ext"],
   weight: ["100", "300", "400", "500", "700", "900"],
 });
 
