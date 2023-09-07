@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1320px] w-full mx-auto px-4;
+  }
+  .link {
+    @apply inline-block text-lg font-medium p-3 text-grey border-b-2 md:border-b-0 md:border-r-2;
+  }
+  .btn-secondary {
+    @apply text-xl py-3 px-5 bg-primary text-secondary font-medium rounded-xl;
+  }
+}
