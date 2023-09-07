@@ -8,19 +8,19 @@ import { useState } from "react";
 const links = [
   {
     href: "/",
-    title: "Home",
+    title: "головний",
   },
   {
     href: "/about",
-    title: "About Us",
+    title: "про нас",
   },
   {
     href: "/team",
-    title: "Team",
+    title: "команда",
   },
   {
     href: "/contact",
-    title: "Contact",
+    title: "контакт",
   },
 ];
 
@@ -29,12 +29,12 @@ const Navbar = () => {
   const [menu, setmenu] = useState<boolean>(false);
   return (
     <header className="sticky top-0 left-0 w-full z-10 border-b">
-      <nav className="container flex items-center justify-between py-5">
+      <nav className="container flex items-center justify-between py-3 md:py-5">
         <Link
           href="/"
           className={
             menu
-              ? "fixed top-5 left-4 z-10"
+              ? "fixed top-3 md:top-5 left-4 z-10"
               : "flex items-center justift-center"
           }
         >
@@ -77,7 +77,7 @@ const Navbar = () => {
           onClick={() => setmenu((prev) => !prev)}
           className={
             menu
-              ? "fixed top-7 right-4 z-20"
+              ? "fixed top-5 md:top-7 right-4 z-20"
               : "md:hidden flex items-center justift-center"
           }
         >

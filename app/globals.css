@@ -14,7 +14,7 @@
     @apply max-w-[1320px] w-full mx-auto px-4;
   }
   .link {
-    @apply inline-block text-lg font-medium p-3 text-grey border-b-2 md:border-b-0 md:border-r-2;
+    @apply inline-block capitalize text-lg font-medium p-3 text-grey border-b-2 md:border-b-0 md:border-r-2;
   }
   .btn-secondary {
     @apply text-xl py-2 px-4 bg-primary text-secondary font-normal rounded-md;
