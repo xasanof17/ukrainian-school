@@ -4,25 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AlignJustify, X } from "lucide-react";
 import { useState } from "react";
-
-const links = [
-  {
-    href: "/",
-    title: "головний",
-  },
-  {
-    href: "/about",
-    title: "про нас",
-  },
-  {
-    href: "/team",
-    title: "команда",
-  },
-  {
-    href: "/contact",
-    title: "контакт",
-  },
-];
+import { links } from "@/constants";
 
 const Navbar = () => {
   const pathname = usePathname();
