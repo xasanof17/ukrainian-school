@@ -1,8 +1,9 @@
+import { ChevronsDown } from "lucide-react";
 import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section id="hero" className="my-10">
+    <section id="hero" className="pt-10 md:pt-20 pb-[20%] md:pb-[10%] relative">
       <div className="container flex flex-col-reverse lg:flex-row lg:items-center justify-between lg:space-x-3">
         <div className="flex flex-col max-w-2xl w-full">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-primary mt-7 lg:mt-0">
@@ -26,6 +27,9 @@ const Hero = () => {
             className="object-cover"
           />
         </div>
+      </div>
+      <div className="absolute bottom-0 inset-x-0 flex items-center justify-center animate-bounce">
+        <ChevronsDown size={50} className="text-secondary" />
       </div>
     </section>
   );

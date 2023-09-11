@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const [menu, setmenu] = useState<boolean>(false);
   return (
-    <header className="sticky top-0 left-0 w-full z-10 border-b bg-white">
+    <header className="sticky top-0 left-0 w-full z-20 border-b bg-white">
       <nav className="container flex items-center justify-between py-3 md:py-5">
         <Link
           href="/"
@@ -71,6 +71,7 @@ const Navbar = () => {
               {links.map((item, i) => (
                 <li key={i}>
                   <Link
+                    onClick={() => setmenu((prev) => !prev)}
                     href={item.href}
                     className={
                       pathname == item.href
