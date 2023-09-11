@@ -88,7 +88,7 @@ const Footer = () => {
             ))}
           </ul>
           <ul className="flex flex-col sm:items-center md:items-start space-y-1">
-            <h3 className="text-primary text-xl font-bold mb-2">Contact</h3>
+            <h3 className="text-primary text-xl font-bold mb-2">Контакт</h3>
             <li>
               <Link
                 href="mailto:xasanof17@gmail.com"
@@ -113,14 +113,17 @@ const Footer = () => {
                 className="text-grey flex items-center font-normal space-x-2 hover:text-primary duration-300 text-base sm:text-lg transition-colors"
               >
                 <MapPin size={24} />
-                <p>View on Google Map</p>
+                <p>Переглянути на Google Map</p>
               </Link>
             </li>
           </ul>
         </div>
         <div className="border-t-2 flex items-center justify-center py-3">
           <p className="text-base sm:text-lg text-grey font-normal">
-            &copy; All rights reserved {date.getFullYear()}
+            &copy; Школа {"\u0406"}-{"\u0406"}
+            {"\u0406"}
+            {"\u0406"} ступенів {"\u2116"}27 Печерського району м.Києва{" "}
+            {date.getFullYear()}
           </p>
         </div>
       </footer>

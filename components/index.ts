@@ -5,3 +5,5 @@ export { default as Study } from "./Study";
 export { default as BestMoments } from "./BestMoments";
 export { default as Banner } from "./Banner";
 export { default as News } from "./News";
+export { default as ExpectParents } from "./ExpectParents";
+export { default as Values } from "./Values";
