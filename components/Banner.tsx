@@ -1,8 +1,8 @@
 const Banner = ({ title }: { title: string }) => {
   return (
-    <div className="flex flex-col h-[50vh] items-center justify-center bg-[url('/assets/heroBg.svg')] object-cover py-20 relative">
-      <div className="absolute inset-0 bg-black/50 z-10" />
-      <h1 className="title uppercase text-secondary z-10">{title}</h1>
+    <div className="relative flex h-[50vh] flex-col items-center justify-center bg-[url('/assets/heroBg.svg')] object-cover py-20">
+      <div className="absolute inset-0 z-10 bg-black/50" />
+      <h1 className="title z-10 uppercase text-secondary">{title}</h1>
     </div>
   );
 };

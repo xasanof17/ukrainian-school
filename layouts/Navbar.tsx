@@ -10,17 +10,17 @@ const Navbar = () => {
   const pathname = usePathname();
   const [menu, setmenu] = useState<boolean>(false);
   return (
-    <header className="sticky top-0 left-0 w-full z-20 border-b bg-white">
+    <header className="sticky left-0 top-0 z-20 w-full border-b bg-white">
       <nav className="container flex items-center justify-between py-3 md:py-5">
         <Link
           href="/"
           className={
             menu
-              ? "fixed top-3 md:top-5 left-4 z-10"
-              : "flex items-center justift-center"
+              ? "fixed left-4 top-3 z-10 md:top-5"
+              : "justift-center flex items-center"
           }
         >
-          <div className="hidden md:inline-flex relative w-[250px] h-12">
+          <div className="relative hidden h-12 w-[250px] md:inline-flex">
             <Image
               src="/assets/logo.svg"
               alt=""
@@ -29,7 +29,7 @@ const Navbar = () => {
               className="object-cover"
             />
           </div>
-          <div className="md:hidden inline-flex relative w-[200px] h-10">
+          <div className="relative inline-flex h-10 w-[200px] md:hidden">
             <Image
               src="/assets/sm-logo.svg"
               alt=""
@@ -39,14 +39,14 @@ const Navbar = () => {
             />
           </div>
         </Link>
-        <ul className="hidden md:flex items-center">
+        <ul className="hidden items-center md:flex">
           {links.map((item, i) => (
             <li key={i}>
               <Link
                 href={item.href}
                 className={
                   pathname == item.href
-                    ? "link text-primary border-secondary"
+                    ? "link border-secondary text-primary"
                     : "link border-transparent"
                 }
               >
@@ -59,15 +59,15 @@ const Navbar = () => {
           onClick={() => setmenu((prev) => !prev)}
           className={
             menu
-              ? "fixed top-5 md:top-7 right-4 z-20"
-              : "md:hidden flex items-center justift-center"
+              ? "fixed right-4 top-5 z-20 md:top-7"
+              : "justift-center flex items-center md:hidden"
           }
         >
           {!menu ? <AlignJustify size={25} /> : <X size={25} />}
         </button>
         {menu && (
-          <div className="fixed inset-0 h-screen flex flex-col items-center justify-center bg-white">
-            <ul className="md:hidden flex flex-col items-center justify-center space-y-3">
+          <div className="fixed inset-0 flex h-screen flex-col items-center justify-center bg-white">
+            <ul className="flex flex-col items-center justify-center space-y-3 md:hidden">
               {links.map((item, i) => (
                 <li key={i}>
                   <Link
@@ -75,8 +75,8 @@ const Navbar = () => {
                     href={item.href}
                     className={
                       pathname == item.href
-                        ? "link text-lg text-primary border-secondary"
-                        : "link text-lg border-transparent"
+                        ? "link border-secondary text-lg text-primary"
+                        : "link border-transparent text-lg"
                     }
                   >
                     {item.title}

@@ -38,11 +38,11 @@ const Footer = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       />
-      <footer className="pt-4 border-t">
-        <div className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pb-3">
+      <footer className="border-t pt-4">
+        <div className="container grid grid-cols-1 gap-5 pb-3 sm:grid-cols-2 lg:grid-cols-3">
           <div className="flex flex-col">
-            <Link href="/" className="flex items-center justift-center">
-              <div className="hidden md:inline-flex relative w-[250px] h-12">
+            <Link href="/" className="justift-center flex items-center">
+              <div className="relative hidden h-12 w-[250px] md:inline-flex">
                 <Image
                   src="/assets/logo.svg"
                   alt=""
@@ -51,7 +51,7 @@ const Footer = () => {
                   className="object-cover"
                 />
               </div>
-              <div className="md:hidden inline-flex relative w-[200px] h-10">
+              <div className="relative inline-flex h-10 w-[200px] md:hidden">
                 <Image
                   src="/assets/sm-logo.svg"
                   alt=""
@@ -61,38 +61,38 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <ul className="flex items-center space-x-2 mt-3">
+            <ul className="mt-3 flex items-center space-x-2">
               {socials.map(({ Icon, href }, i) => (
                 <li key={i}>
                   <Link href={href}>
                     <Icon
                       size={24}
-                      className="text-grey hover:text-primary duration-300 transition-colors"
+                      className="text-grey transition-colors duration-300 hover:text-primary"
                     />
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
-          <ul className="flex flex-col sm:items-center md:items-start space-y-1">
-            <h3 className="text-primary text-xl font-bold mb-2">Company</h3>
+          <ul className="flex flex-col space-y-1 sm:items-center md:items-start">
+            <h3 className="mb-2 text-xl font-bold text-primary">Company</h3>
             {links.map(({ href, title }, i) => (
               <li key={i}>
                 <Link
                   href={href}
-                  className="capitalize text-base sm:text-lg text-grey hover:text-primary duration-300 transition-colors"
+                  className="text-base capitalize text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
                 >
                   {title}
                 </Link>
               </li>
             ))}
           </ul>
-          <ul className="flex flex-col sm:items-center md:items-start space-y-1">
-            <h3 className="text-primary text-xl font-bold mb-2">Контакт</h3>
+          <ul className="flex flex-col space-y-1 sm:items-center md:items-start">
+            <h3 className="mb-2 text-xl font-bold text-primary">Контакт</h3>
             <li>
               <Link
                 href="mailto:xasanof17@gmail.com"
-                className="text-grey flex items-center font-normal space-x-2 hover:text-primary duration-300 text-base sm:text-lg transition-colors"
+                className="flex items-center space-x-2 text-base font-normal text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
               >
                 <Mail size={24} />
                 <p>xasanof17@gmail.com</p>
@@ -101,7 +101,7 @@ const Footer = () => {
             <li>
               <Link
                 href="tel:+998900198505"
-                className="text-grey flex items-center font-normal space-x-2 hover:text-primary duration-300 text-base sm:text-lg transition-colors"
+                className="flex items-center space-x-2 text-base font-normal text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
               >
                 <PhoneIcon size={24} />
                 <p>+998 90 019 85 05</p>
@@ -110,7 +110,7 @@ const Footer = () => {
             <li>
               <Link
                 href="https://goo.gl/maps/WbDjCr9yVMLp9hVx5"
-                className="text-grey flex items-center font-normal space-x-2 hover:text-primary duration-300 text-base sm:text-lg transition-colors"
+                className="flex items-center space-x-2 text-base font-normal text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
               >
                 <MapPin size={24} />
                 <p>Переглянути на Google Map</p>
@@ -118,8 +118,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="border-t-2 flex items-center justify-center py-3">
-          <p className="text-base sm:text-lg text-grey font-normal">
+        <div className="flex items-center justify-center border-t-2 py-3">
+          <p className="text-base font-normal text-grey sm:text-lg">
             &copy; Школа {"\u0406"}-{"\u0406"}
             {"\u0406"}
             {"\u0406"} ступенів {"\u2116"}27 Печерського району м.Києва{" "}

@@ -7,8 +7,8 @@ export default function AboutPage() {
         <Banner title="Про школу" />
         <div className="container">
           <div className="flex flex-col items-center justify-center py-20">
-            <h2 className="text-3xl font-bold text-primary mb-6">МІСІЯ</h2>
-            <p className="text-lg xl:text-xl font-regular text-grey text-center mb-7">
+            <h2 className="mb-6 text-3xl font-bold text-primary">МІСІЯ</h2>
+            <p className="font-regular mb-7 text-center text-lg text-grey xl:text-xl">
               Школа пропонує своїм учням освітній досвід, який максимізує їхній
               освітній потенціал. Вони на шляху до того, щоб стати незалежними
               учнями з широкими перспективами, критичним мисленням і навичками
@@ -18,7 +18,7 @@ export default function AboutPage() {
               середовище, де студенти можуть розвивати свої морально-етичні
               духовні якості та здатність розуміти інших.
             </p>
-            <p className="text-lg xl:text-xl font-regular text-grey text-center">
+            <p className="font-regular text-center text-lg text-grey xl:text-xl">
               Ми завжди відкриті для вас і впевнені, що разом нам вдасться в
               повній мірі досягти поставленої мети.
             </p>

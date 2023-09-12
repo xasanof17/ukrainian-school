@@ -36,9 +36,9 @@ const ExpectParents = () => {
   return (
     <section id="expect_parents" className="my-[20%]">
       <div className="container">
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
           <div className="flex flex-col">
-            <div className="relative w-full h-[480px]">
+            <div className="relative h-[300px] w-full md:h-[440px] xl:h-[480px]">
               <Image
                 src="/assets/expect-parents.webp"
                 fill
@@ -47,14 +47,16 @@ const ExpectParents = () => {
             </div>
           </div>
           <div className="flex flex-col justify-start">
-            <h2 className="title text-[45px] font-bold mb-10">Ми чекаємо від батьків:</h2>
+            <h2 className="title mb-5 font-bold md:mb-10 xl:text-[45px]">
+              Ми чекаємо від батьків:
+            </h2>
             <ul className="flex flex-col space-y-3">
               {data.map(({ Icon, title }, i) => (
                 <li
                   key={i}
-                  className="space-x-2 text-xl text-grey"
+                  className="space-x-2 text-base text-grey sm:text-lg xl:text-xl"
                 >
-                  <Icon size={20} className="text-secondary inline-block" />
+                  <Icon size={20} className="inline-block text-secondary" />
                   <span>{title}</span>
                 </li>
               ))}

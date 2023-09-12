@@ -3,7 +3,7 @@ import Image from "next/image";
 import Slider, { Settings } from "react-slick";
 
 const variants = {
-  slider: "relative w-full h-[300px] sm:h-[500px] md:h-[600px]",
+  slider: "relative w-full h-[280px] sm:h-[400px] md:h-[700px] xl:h-[800px]",
 };
 
 const BestMoments = () => {
@@ -18,9 +18,9 @@ const BestMoments = () => {
   return (
     <section id="best_comments" className="my-[20%]">
       <div className="container">
-        <div className="flex flex-col space-y-12 xl:space-y-[100px]">
+        <div className="flex flex-col space-y-6 md:space-y-12 xl:space-y-[100px]">
           <div className="flex items-center justify-start">
-            <h2 className="max-w-[300px] w-full title">
+            <h2 className="title w-full max-w-[300px]">
               Навчання в нашiй школi
             </h2>
           </div>

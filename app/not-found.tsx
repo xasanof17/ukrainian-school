@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function NotFoundPage() {
   return (
-    <div className="min-h-screen max-w-screen w-full flex flex-col items-center justify-center">
-      <h1 className="text-xl md:text-2xl font-bold text-primary mb-5 capitalize">
+    <div className="max-w-screen flex min-h-screen w-full flex-col items-center justify-center">
+      <h1 className="mb-5 text-xl font-bold capitalize text-primary md:text-2xl">
         Сторінка не знайдена
       </h1>
       <Link href="/" className="btn-secondary">

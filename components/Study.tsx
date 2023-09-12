@@ -38,22 +38,22 @@ const Study = () => {
       <div className="container">
         <div className="flex flex-col space-y-10 sm:space-y-20 xl:space-y-[130px]">
           <div className="flex items-center justify-start">
-            <h2 className="max-w-[300px] w-full title">
+            <h2 className="title w-full max-w-[300px]">
               Навчання в нашiй школi
             </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-9">
+          <div className="grid grid-cols-2 gap-9 md:grid-cols-3 lg:grid-cols-6">
             {data.map(({ src, title }, i) => (
               <div
                 key={i}
                 className="flex flex-col items-center justify-start space-y-6 md:space-y-9"
               >
-                <div className="border-2 rounded-full border-secondary p-6 flex items-center justify-center">
-                  <div className="relative w-[40px] sm:w-[67px] h-[40px] sm:h-[67px]">
+                <div className="flex items-center justify-center rounded-full border-2 border-secondary p-6">
+                  <div className="relative h-[40px] w-[40px] sm:h-[67px] sm:w-[67px]">
                     <Image src={src} alt={`${title} icon`} fill priority />
                   </div>
                 </div>
-                <h3 className="text-primary text-base md:text-lg uppercase font-extrabold text-center">
+                <h3 className="text-center text-base font-extrabold uppercase text-primary md:text-lg">
                   {title}
                 </h3>
               </div>
