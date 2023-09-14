@@ -7,3 +7,5 @@ export { default as Banner } from "./Banner";
 export { default as News } from "./News";
 export { default as ExpectParents } from "./ExpectParents";
 export { default as Values } from "./Values";
+export { default as Contact } from "./Contact";
+export { default as Team } from "./Team";

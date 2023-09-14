@@ -4,16 +4,20 @@ const links = [
     title: "Головна",
   },
   {
-    href: "/about",
-    title: "про школу",
+    href: "/pro-shkolu",
+    title: "Про школу",
   },
   {
-    href: "/news",
+    href: "/komanda",
+    title: "Команда",
+  },
+  {
+    href: "/novyny",
     title: "Новини",
   },
   {
-    href: "/contact",
-    title: "контакти",
+    href: "/kontakti",
+    title: "Контакти",
   },
 ];
 

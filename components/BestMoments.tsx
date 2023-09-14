@@ -20,9 +20,7 @@ const BestMoments = () => {
       <div className="container">
         <div className="flex flex-col space-y-6 md:space-y-12 xl:space-y-[100px]">
           <div className="flex items-center justify-start">
-            <h2 className="title w-full max-w-[300px]">
-              Навчання в нашiй школi
-            </h2>
+            <h2 className="title w-full max-w-[300px]">Найкращи моменти</h2>
           </div>
           <div>
             <Slider {...settings}>

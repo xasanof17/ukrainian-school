@@ -15,14 +15,6 @@ const socials: Social[] = [
     Icon: FaFacebook,
     href: "https://facebook.com/mystudy",
   },
-  {
-    Icon: FaTwitter,
-    href: "https://x.com/mystudy",
-  },
-  {
-    Icon: FaTelegramPlane,
-    href: "https://t.me/mystudy",
-  },
 ];
 
 const Footer = () => {
@@ -74,8 +66,8 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <ul className="flex flex-col space-y-1 sm:items-center md:items-start">
-            <h3 className="mb-2 text-xl font-bold text-primary">Company</h3>
+          <ul className="flex flex-col items-start space-y-1">
+            <h3 className="mb-2 text-xl font-bold text-primary">Посилання</h3>
             {links.map(({ href, title }, i) => (
               <li key={i}>
                 <Link
@@ -87,15 +79,15 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-          <ul className="flex flex-col space-y-1 sm:items-center md:items-start">
+          <ul className="flex flex-col items-start space-y-1">
             <h3 className="mb-2 text-xl font-bold text-primary">Контакт</h3>
             <li>
               <Link
-                href="mailto:xasanof17@gmail.com"
+                href="mailto:oleksij_borysovych@email.ua"
                 className="flex items-center space-x-2 text-base font-normal text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
               >
                 <Mail size={24} />
-                <p>xasanof17@gmail.com</p>
+                <p>oleksij_borysovych@email.ua</p>
               </Link>
             </li>
             <li>
@@ -118,12 +110,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center justify-center border-t-2 py-3">
-          <p className="text-base font-normal text-grey sm:text-lg">
-            &copy; Школа {"\u0406"}-{"\u0406"}
-            {"\u0406"}
-            {"\u0406"} ступенів {"\u2116"}27 Печерського району м.Києва{" "}
-            {date.getFullYear()}
+        <div className="flex items-center justify-center border-t-2 px-4 py-3">
+          <p className="text-center text-base font-normal text-grey sm:text-lg">
+            Всі права захищені &copy; {date.getFullYear()}
           </p>
         </div>
       </footer>
