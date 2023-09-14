@@ -9,3 +9,4 @@ export { default as ExpectParents } from "./ExpectParents";
 export { default as Values } from "./Values";
 export { default as Contact } from "./Contact";
 export { default as Team } from "./Team";
+export { default as Loading } from "./Loading";

@@ -1,11 +1,12 @@
 import Image from "next/image";
+import React from "react";
 
-export default function LoadingPage() {
+const Loading = ({ title }: { title: string }) => {
   return (
     <div className="min-w-screen fixed inset-0 z-50 flex min-h-screen w-full flex-col items-center justify-center bg-white">
-      <Image src="/assets/icon.svg" alt="ukraine" width={80} height={40} priority/>
+      <Image src="/assets/icon.svg" alt="ukraine" width={80} height={40} />
       <h2 className="mb-5 animate-pulse text-xl font-medium capitalize text-primary md:text-2xl">
-        Завантаження...
+        {title} завантаження...
       </h2>
       <Image
         src="/assets/loading.svg"
@@ -13,8 +14,9 @@ export default function LoadingPage() {
         className="animate-spin object-cover"
         width={50}
         height={50}
-        priority
       />
     </div>
   );
-}
+};
+
+export default Loading;
