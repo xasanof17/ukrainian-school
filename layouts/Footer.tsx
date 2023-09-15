@@ -41,6 +41,7 @@ const Footer = () => {
                   fill
                   title="Ukranian School"
                   className="object-cover"
+                  priority
                 />
               </div>
               <div className="relative inline-flex h-10 w-[200px] md:hidden">

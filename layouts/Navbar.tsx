@@ -23,19 +23,21 @@ const Navbar = () => {
           <div className="relative hidden h-12 w-[250px] md:inline-flex">
             <Image
               src="/assets/logo.svg"
-              alt=""
+              alt="Ukrainian Flag"
               fill
               title="Ukranian School"
               className="object-cover"
+              priority
             />
           </div>
           <div className="relative inline-flex h-10 w-[200px] md:hidden">
             <Image
               src="/assets/sm-logo.svg"
-              alt=""
+              alt="Ukrainian Flag"
               fill
               title="Ukranian School"
               className="object-cover"
+              priority
             />
           </div>
         </Link>

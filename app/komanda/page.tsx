@@ -1,4 +1,10 @@
 import { Banner, Team } from "@/components";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Команда",
+  description: "Команда - Львов",
+};
 
 export default function TeamPage() {
   return (

@@ -1,4 +1,10 @@
 import { Banner, ExpectParents, Values } from "@/components";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Про Школу",
+  description: "Про школу - Львов",
+};
 
 export default function AboutPage() {
   return (

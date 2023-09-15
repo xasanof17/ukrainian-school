@@ -1,4 +1,10 @@
 import { Banner, Contact } from "@/components";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Контакт",
+  description: "Контакт - Львов",
+};
 
 export default function ContactPage() {
   return (

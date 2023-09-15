@@ -10,9 +10,14 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Ukrainian School",
+  title: {
+    default: "Школа 101",
+    template: "%s - Школа 101",
+  },
+  assets: "https://school101.lviv.ua/static/assets",
+  category: "School Website",
   description:
-    "Українська школа - створена для забезпечення адаптації дітей до навчання в іншій країні.",
+    "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
   authors: [
     {
       name: "JX Team",
@@ -21,6 +26,25 @@ export const metadata: Metadata = {
   ],
   creator: "JX Team",
   generator: "Next.js",
+  abstract:
+    "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
+  applicationName: "Українська школа",
+  keywords: [
+    "school 101 lviv",
+    "lviv schools",
+    "львов школы",
+    "101 львов школа",
+  ],
+  openGraph: {
+    type: "website",
+    title: "Школа 101 - Львов",
+    countryName: "Ukraine",
+    description:
+      "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
+    siteName: "www.school101.lviv.ua",
+    url: "https://school101.lviv.ua",
+    emails: ["oleksij_borsovych@email.ua"],
+  },
 };
 
 export default function RootLayout({
