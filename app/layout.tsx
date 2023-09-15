@@ -28,7 +28,13 @@ export const metadata: Metadata = {
   generator: "Next.js",
   abstract:
     "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
-  applicationName: "Українська школа",
+  applicationName: "Школа 101 - Львов",
+  alternates: {
+    canonical: "https://school101.lviv.ua",
+  },
+  manifest: "https://school101.lviv.ua/manifest.json",
+  publisher: "Hostinger",
+  robots: "index, follow",
   keywords: [
     "school 101 lviv",
     "lviv schools",
@@ -42,7 +48,7 @@ export const metadata: Metadata = {
     description:
       "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
     siteName: "www.school101.lviv.ua",
-    url: "https://school101.lviv.ua",
+    url: "www.school101.lviv.ua",
     emails: ["oleksij_borsovych@email.ua"],
   },
 };
