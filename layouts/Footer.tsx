@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, PhoneIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { FaTelegramPlane, FaFacebook, FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 type Social = {
   Icon: IconType;
@@ -93,11 +93,11 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="tel:+998900198505"
+                href="tel:+380914819996"
                 className="flex items-center space-x-2 text-base font-normal text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
               >
                 <PhoneIcon size={24} />
-                <p>+998 90 019 85 05</p>
+                <p>+380914819996</p>
               </Link>
             </li>
             <li>

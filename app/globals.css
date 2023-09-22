@@ -1,4 +1,4 @@
-@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @tailwind base;
 @tailwind components;
@@ -7,21 +7,24 @@
 @layer base {
   html,
   body {
-    @apply scroll-smooth overflow-x-hidden;
+    @apply overflow-x-hidden scroll-smooth;
   }
 }
 
 @layer components {
   .container {
-    @apply max-w-[1320px] w-full mx-auto px-4;
+    @apply mx-auto w-full max-w-[1320px] px-4;
   }
   .link {
-    @apply inline-block capitalize text-lg font-medium hover:text-primary duration-300 transition-colors lg:py-3 px-3 text-grey border-b-2 md:border-b-0 md:border-r-2;
+    @apply inline-block border-b-2 px-3 text-lg font-medium capitalize text-grey transition-colors duration-300 hover:text-primary md:border-b-0 md:border-r-2 lg:py-3;
   }
   .btn-secondary {
-    @apply text-xl py-2 px-4 bg-primary text-secondary font-normal rounded-md;
+    @apply rounded-md bg-primary px-4 py-2 text-xl font-normal text-secondary;
   }
   .title {
-    @apply text-[26px] sm:text-4xl lg:text-[40px] font-extrabold leading-10 text-primary;
+    @apply text-[26px] font-extrabold leading-10 text-primary sm:text-4xl lg:text-[40px];
+  }
+  .section_title {
+    @apply mt-7 text-2xl font-bold text-secondary sm:text-3xl lg:text-4xl;
   }
 }

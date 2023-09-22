@@ -8,8 +8,8 @@ const links = [
     title: "Про школу",
   },
   {
-    href: "/komanda",
-    title: "Команда",
+    href: "/kolektiv",
+    title: "Колектив",
   },
   {
     href: "/novyny",

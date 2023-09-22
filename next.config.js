@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    appDir: true,
+  },
+  images: {
+    domains: ["school-78.kiev.ua"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

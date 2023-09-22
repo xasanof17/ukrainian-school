@@ -41,7 +41,7 @@ const Navbar = () => {
             />
           </div>
         </Link>
-        <ul className="hidden items-center md:flex">
+        <ul className="hidden items-center lg:flex">
           {links.map((item, i) => (
             <li key={i}>
               <Link
@@ -62,7 +62,7 @@ const Navbar = () => {
           className={
             menu
               ? "fixed right-4 top-5 z-20 md:top-7"
-              : "justift-center flex items-center md:hidden"
+              : "justift-center flex items-center lg:hidden"
           }
         >
           {!menu ? <AlignJustify size={25} /> : <X size={25} />}
