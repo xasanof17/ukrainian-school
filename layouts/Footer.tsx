@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.3279582452205!2d30.37656783443551!3d50.45361733500999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc8bc3a93f67%3A0x716038f8afcdd8d!2z0KHQv9C10YbQuNCw0LvQuNC30LjRgNC-0LLQsNC90L3QsNGPINGI0LrQvtC70LAg4oSWNDA!5e0!3m2!1sru!2s!4v1694101845922!5m2!1sru!2s"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2574.01483198131!2d24.01457107688888!3d49.82338643231464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDQ5JzI0LjIiTiAyNMKwMDEnMDEuNyJF!5e0!3m2!1sru!2s!4v1695890987369!5m2!1sru!2s"
         width="100%"
         height="450"
         style={{ border: 0 }}
@@ -102,7 +102,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://goo.gl/maps/WbDjCr9yVMLp9hVx5"
+                href="https://maps.app.goo.gl/KB8EwLyXEMosQ8Co8"
                 className="flex items-center space-x-2 text-base font-normal text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
               >
                 <MapPin size={24} />

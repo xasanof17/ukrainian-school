@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     "львов школы",
     "101 львов школа",
   ],
+  metadataBase: new URL("https://school101.lviv.ua"),
   openGraph: {
     type: "website",
     title: "Школа 101 - Львов",
