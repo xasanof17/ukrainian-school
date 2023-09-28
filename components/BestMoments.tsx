@@ -3,7 +3,7 @@ import Image from "next/image";
 import Slider, { Settings } from "react-slick";
 
 const variants = {
-  slider: "relative w-full h-[280px] sm:h-[400px] md:h-[700px] xl:h-[800px]",
+  slider: "relative w-full h-[280px] sm:h-[300px] md:h-[700px] xl:h-[800px]",
 };
 
 const BestMoments = () => {

@@ -13,7 +13,7 @@ type Social = {
 const socials: Social[] = [
   {
     Icon: FaFacebook,
-    href: "https://facebook.com/mystudy",
+    href: "https://www.facebook.com/profile.php?id=61550933983602",
   },
 ];
 
