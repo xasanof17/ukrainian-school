@@ -6,7 +6,7 @@ import { Phone } from "@/components";
 
 const roboto = Roboto({
   subsets: ["latin", "cyrillic", "cyrillic-ext"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+  weight: ["400", "500", "700", "900"],
 });
 
 export const metadata: Metadata = {

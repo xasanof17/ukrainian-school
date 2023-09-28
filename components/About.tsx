@@ -19,21 +19,21 @@ const About = () => {
                 />
               </div>
             </div>
-            <p className="text-left text-lg font-semibold text-white lg:text-xl">
+            <p className="text-left text-lg font-bold text-white lg:text-xl">
               Кожного ранку, зустрічаючи на шкільному подвір’ї вчителів і
               учнів,бачу щасливі обличчя, привітну посмішку, лагідні очі, чую
               радісні привітання.
             </p>
-            <p className="my-6 text-left text-lg font-semibold text-white lg:text-xl">
+            <p className="my-6 text-left text-lg font-bold text-white lg:text-xl">
               Вони поспішають до школи, яка стала для них справжнім Палацом
               Знань і вічних істин Добра, Краси, Здоров’я.
             </p>
             <div className="flex items-center justify-end">
               <div className="flex flex-col">
-                <p className="text-base font-semibold italic text-white lg:text-lg">
+                <p className="text-base font-bold italic text-white lg:text-lg">
                   Директор
                 </p>
-                <p className="text-base font-semibold italic text-white lg:text-lg">
+                <p className="text-base font-bold italic text-white lg:text-lg">
                   Світлана Леонтіївна Гаєва
                 </p>
               </div>
