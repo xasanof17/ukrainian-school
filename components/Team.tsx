@@ -28,8 +28,7 @@ const Team = () => {
   return (
     <div className="container my-20">
       <div className="flex flex-col items-start justify-center">
-        <h1 className="title uppercase">Наш Колектив</h1>
-        <h2 className="section_title uppercase">АдмІнIстрацIя</h2>
+        <h1 className="section_title uppercase">АдмІнIстрацIя</h1>
         <div className="mt-[50px] grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:gap-7">
           {data.map(({ image, name, occ }, i) => (
             <div

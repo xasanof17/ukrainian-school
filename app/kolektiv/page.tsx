@@ -2,14 +2,14 @@ import { Banner, Team } from "@/components";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Команда",
-  description: "Команда - Львов",
+  title: "Колектив",
+  description: "Колектив - Львов",
 };
 
 export default function TeamPage() {
   return (
     <section id="team_page">
-      <Banner title="Команда" />
+      <Banner title="Колектив" />
       <Team />
     </section>
   );

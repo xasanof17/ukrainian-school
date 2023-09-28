@@ -25,6 +25,6 @@
     @apply text-[26px] font-extrabold leading-10 text-primary sm:text-4xl lg:text-[40px];
   }
   .section_title {
-    @apply mt-7 text-2xl font-bold text-secondary sm:text-3xl lg:text-4xl;
+    @apply text-2xl font-bold text-secondary sm:text-3xl lg:text-4xl;
   }
 }

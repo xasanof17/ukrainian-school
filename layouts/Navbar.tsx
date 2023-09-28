@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const [menu, setmenu] = useState<boolean>(false);
   return (
-    <header className="sticky left-0 top-0 z-20 w-full border-b bg-white">
+    <header className="sticky left-0 top-0 z-50 w-full border-b bg-white">
       <nav className="container flex items-center justify-between py-3 md:py-5">
         <Link
           href="/"

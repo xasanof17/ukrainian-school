@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <section id="news_page">
-      <Banner title="Контакт" />
+      <Banner title="Контакти" />
       <Contact />
     </section>
   );

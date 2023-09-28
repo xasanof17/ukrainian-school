@@ -31,16 +31,13 @@ const BestMoments = () => {
                 <Image src="/assets/sliders/slider2.jpg" alt="slider" fill />
               </div>
               <div className={variants.slider}>
-                <Image src="/assets/sliders/slider1.jpg" alt="slider" fill />
+                <Image src="/assets/sliders/slider3.jpg" alt="slider" fill />
               </div>
               <div className={variants.slider}>
-                <Image src="/assets/sliders/slider2.jpg" alt="slider" fill />
+                <Image src="/assets/sliders/slider4.jpg" alt="slider" fill />
               </div>
               <div className={variants.slider}>
-                <Image src="/assets/sliders/slider1.jpg" alt="slider" fill />
-              </div>
-              <div className={variants.slider}>
-                <Image src="/assets/sliders/slider1.jpg" alt="slider" fill />
+                <Image src="/assets/sliders/slider5.jpg" alt="slider" fill />
               </div>
             </Slider>
           </div>
