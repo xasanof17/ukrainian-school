@@ -16,7 +16,13 @@ const Hero = () => {
             Українська школа - це віртуальна школа, створена для забезпечення
             адаптації дітей до навчання в іншій країні. Якщо ви навчаєтесь y
             школі або є вчителем, ви можете зареєструватись, надіславши
-            електронний лист за адресою hello@ukraineschool.com
+            електронний лист за адресою
+            <a
+              href="mailto:info@school101.lviv.ua"
+              className="font-medium text-secondary"
+            >
+              info@school101.lviv.ua
+            </a>
           </p>
         </div>
         <div className="relative h-[500px] w-full lg:w-[900px]">

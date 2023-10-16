@@ -8,7 +8,7 @@ const nextConfig = {
   poweredByHeader: true,
   swcMinify: true,
   images: {
-    domains: ["school-78.kiev.ua"],
+    domains: ["school-78.kiev.ua", "media.istockphoto.com"],
   },
 };
 

@@ -28,7 +28,7 @@ const Footer = () => {
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
+        referrerPolicy="origin"
       />
       <footer className="border-t pt-4">
         <div className="container grid grid-cols-1 gap-5 pb-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -88,7 +88,7 @@ const Footer = () => {
                 className="flex items-center space-x-2 text-base font-normal text-grey transition-colors duration-300 hover:text-primary sm:text-lg"
               >
                 <Mail size={24} />
-                <p>oleksij_borysovych@email.ua</p>
+                <p>info@school101.lviv.ua</p>
               </Link>
             </li>
             <li>
