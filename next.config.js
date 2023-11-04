@@ -8,7 +8,18 @@ const nextConfig = {
   poweredByHeader: true,
   swcMinify: true,
   images: {
-    domains: ["school-78.kiev.ua", "media.istockphoto.com"],
+    remotePatterns: [
+      {
+        hostname: "school-78.kiev.ua",
+        pathname: "",
+        protocol: "https",
+      },
+      {
+        hostname: "media.istockphoto.com",
+        pathname: "",
+        protocol: "https",
+      },
+    ],
   },
 };
 

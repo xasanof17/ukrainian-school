@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://school101.lviv.ua",
   },
-  manifest: "https://school101.lviv.ua/manifest.json",
+  manifest: "https://school101.lviv.ua/manifest.webmanifest",
   publisher: "Hostinger",
   robots: "index, follow",
   keywords: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
       "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
     siteName: "www.school101.lviv.ua",
     url: "www.school101.lviv.ua",
-    emails: ["oleksij_borsovych@email.ua"],
+    emails: ["oleksij_borsovych@email.ua", "info@school101.lviv.ua"],
   },
 };
 

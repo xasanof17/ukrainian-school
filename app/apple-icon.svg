@@ -1,2 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet"><path fill="#005BBB" d="M32 5H4a4 4 0 0 0-4 4v9h36V9a4 4 0 0 0-4-4z"></path><path fill="#FFD500" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-9h36v9z"></path></svg>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.3333 0H1.66667C1.22464 0 0.800715 0.226922 0.488155 0.630845C0.175595 1.03477 0 1.58261 0 2.15385V6.99998H15V2.15385C15 1.58261 14.8244 1.03477 14.5119 0.630845C14.1993 0.226922 13.7754 0 13.3333 0Z" fill="#005BBB"/>
+<path d="M15 11.8461C15 12.4173 14.8244 12.9652 14.5119 13.3691C14.1993 13.773 13.7754 14 13.3333 14H1.66667C1.22464 14 0.800715 13.773 0.488155 13.3691C0.175595 12.9652 0 12.4173 0 11.8461V6.99997H15V11.8461Z" fill="#FFD500"/>
+</svg>

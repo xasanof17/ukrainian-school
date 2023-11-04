@@ -1,9 +1,9 @@
 {
-  "name": "ukrain",
-  "version": "0.1.0",
+  "name": "ukrainian-school",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,10 +16,10 @@
     "eslint": "8.48.0",
     "eslint-config-next": "^13.5.3",
     "lucide-react": "^0.274.0",
-    "next": "^13.5.3",
-    "postcss": "8.4.29",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "latest",
+    "postcss": "^8.4.31",
+    "react": "latest",
+    "react-dom": "latest",
     "react-slick": "^0.29.0",
     "sharp": "^0.32.6",
     "slick-carousel": "^1.8.1",

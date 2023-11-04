@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import Slider, { Settings } from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const variants = {
   slider: "relative w-full h-[280px] sm:h-[300px] md:h-[700px] xl:h-[800px]",
@@ -14,6 +16,8 @@ const BestMoments = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    nextArrow: undefined,
+    prevArrow: undefined,
   };
   return (
     <section id="best_comments" className="my-[20%]">
