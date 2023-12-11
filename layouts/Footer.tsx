@@ -113,8 +113,12 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-center border-t-2 px-4 py-3">
           <p className="text-center text-base font-normal text-grey sm:text-lg">
-            Всі права захищені &copy; {date.getFullYear()}
-            <a href="https://milleniumcompany.tech" target="_blank">Developed by <strong className="text-indigo-600">Millenium Company</strong></a>
+            &copy; {date.getFullYear()} Всі права захищені.{" "}
+            <br className="sm:hidden block"/>
+            <a href="https://milleniumcompany.tech" target="_blank">
+              Developed by{" "}
+              <strong className="text-indigo-600">Millenium Company</strong>
+            </a>
           </p>
         </div>
       </footer>

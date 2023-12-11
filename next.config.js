@@ -2,10 +2,6 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  compress: true,
-  optimizeFonts: true,
-  generateEtags: true,
-  poweredByHeader: true,
   swcMinify: true,
   images: {
     remotePatterns: [
