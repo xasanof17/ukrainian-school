@@ -9,7 +9,7 @@ const roboto = Roboto({
   weight: ["400", "500", "700", "900"],
 });
 
-const baseURL = process.env.VERCEL_URL || "http://localhost:3000";
+const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export const metadata: Metadata = {
   title: {
