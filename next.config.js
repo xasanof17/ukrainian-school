@@ -11,12 +11,12 @@ const nextConfig = {
     remotePatterns: [
       {
         hostname: "school-78.kiev.ua",
-        pathname: "",
+        pathname: "**",
         protocol: "https",
       },
       {
         hostname: "media.istockphoto.com",
-        pathname: "",
+        pathname: "**",
         protocol: "https",
       },
     ],

@@ -2,9 +2,15 @@
   "name": "ukrainian-school",
   "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Xasanov Javohir",
+    "email": "xasanof17@gmail.com",
+    "url": "https://milleniumcompany.tech"
+  },
   "scripts": {
-    "dev": "next dev --experimental-https",
+    "dev": "next dev",
     "build": "next build",
+    "preview": "next build && next start",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,10 +22,10 @@
     "eslint": "8.48.0",
     "eslint-config-next": "^13.5.3",
     "lucide-react": "^0.274.0",
-    "next": "latest",
+    "next": "^14.0.4",
     "postcss": "^8.4.31",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-slick": "^0.29.0",
     "sharp": "^0.32.6",
     "slick-carousel": "^1.8.1",
