@@ -9,30 +9,32 @@ const roboto = Roboto({
   weight: ["400", "500", "700", "900"],
 });
 
+const baseURL = process.env.VERCEL_URL || "http://localhost:3000";
+
 export const metadata: Metadata = {
   title: {
     default: "Школа 101",
     template: "%s - Школа 101",
   },
-  assets: "https://school101.lviv.ua/static/assets",
+  assets: `${baseURL}/assets`,
   category: "School Website",
   description:
     "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
   authors: [
     {
-      name: "JX Team",
-      url: "https://portfoliowebapp.vercel.app",
+      name: "Millenium Company",
+      url: "https://milleniumcompany.tech",
     },
   ],
-  creator: "JX Team",
+  creator: "Millenium Company",
   generator: "Next.js",
   abstract:
     "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
   applicationName: "Школа 101 - Львов",
   alternates: {
-    canonical: "https://school101.lviv.ua",
+    canonical: `${baseURL}`,
   },
-  manifest: "https://school101.lviv.ua/manifest.webmanifest",
+  manifest: `${baseURL}/manifest.webmanifest`,
   publisher: "Hostinger",
   robots: "index, follow",
   keywords: [
@@ -41,7 +43,7 @@ export const metadata: Metadata = {
     "львов школы",
     "101 львов школа",
   ],
-  metadataBase: new URL("https://school101.lviv.ua"),
+  metadataBase: new URL(`${baseURL}`),
   openGraph: {
     type: "website",
     title: "Школа 101 - Львов",
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
     description:
       "Українська школа 101 - створена для забезпечення адаптації дітей до навчання в іншій країні.",
     siteName: "www.school101.lviv.ua",
-    url: "www.school101.lviv.ua",
+    url: `${baseURL}`,
     emails: ["oleksij_borsovych@email.ua", "info@school101.lviv.ua"],
   },
 };
