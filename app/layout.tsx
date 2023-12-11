@@ -63,7 +63,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         <Navbar />
-        <main>{children}</main>
+        {/* <main>{children}</main> */}
+        <main className="container flex flex-col  items-center justify-center py-24 text-center">
+          <h1 className="text-2xl font-bold tracking-wide">
+            Please check your monthly subscription for{" "}
+            <span className="text-indigo-500">Web Hosting</span>
+          </h1>
+          <button className="btn-secondary mt-5">Try Again</button>
+        </main>
         <Phone />
         <Footer />
       </body>
