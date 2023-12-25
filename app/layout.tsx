@@ -13,7 +13,7 @@ const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export const metadata: Metadata = {
   title: {
-    default: "Школа 101",
+    default: "Ukrainian Hosting",
     template: "%s - Школа 101",
   },
   assets: `${baseURL}/assets`,
@@ -63,10 +63,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
-        <Navbar />
+      <body className={`${roboto.className} bg-white`}>
+        {/* <Navbar /> */}
         {/* <main>{children}</main> */}
-        <main className="container flex flex-col  items-center justify-center py-24 text-center">
+        {/* <main className="container flex flex-col  items-center justify-center py-24 text-center">
           <h1 className="text-2xl font-bold tracking-wide">
             Please check your monthly subscription for{" "}
             <span className="text-indigo-500">Web Hosting</span>
@@ -74,7 +74,7 @@ export default function RootLayout({
           <button className="btn-secondary mt-5">Try Again</button>
         </main>
         <Phone />
-        <Footer />
+        <Footer /> */}
       </body>
     </html>
   );
