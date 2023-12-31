@@ -64,17 +64,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} bg-white`}>
-        {/* <Navbar /> */}
-        {/* <main>{children}</main> */}
-        {/* <main className="container flex flex-col  items-center justify-center py-24 text-center">
-          <h1 className="text-2xl font-bold tracking-wide">
-            Please check your monthly subscription for{" "}
-            <span className="text-indigo-500">Web Hosting</span>
-          </h1>
-          <button className="btn-secondary mt-5">Try Again</button>
-        </main>
+        <Navbar />
+        <main>{children}</main>
         <Phone />
-        <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
