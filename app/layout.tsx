@@ -13,7 +13,7 @@ const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export const metadata: Metadata = {
   title: {
-    default: "Ukrainian Hosting",
+    default: "Школа 101 - Львов",
     template: "%s - Школа 101",
   },
   assets: `${baseURL}/assets`,
